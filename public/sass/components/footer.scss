@@ -1,0 +1,19 @@
+.footer.-type-1 {
+}
+
+.footer.-dashboard {
+  border-top: 1px solid var(--color-border);
+  
+  .footer {
+    &__row {
+      padding: 15px 0;
+      
+    }
+    box-shadow: 0px -5px 10px rgba(51, 45, 45, 0.1);
+  }
+}
+
+.hover-effect:hover {
+  color: #dc0069; /* Hover text color */
+  
+}

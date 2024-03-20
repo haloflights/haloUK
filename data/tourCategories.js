@@ -1,0 +1,122 @@
+export const tourCategories1 = [
+  {
+    id: 1,
+    icon: "icon-nature",
+    name: "All Inclusive",
+    url: "all_inclusive_holidays",
+    tourNumber: "5",
+    price: "650",
+    dealyAimation: "",
+    holidays : "Holidays"
+  },
+  {
+    id: 2,
+    icon: "icon-hiking ",
+    name: "Family ",
+    url:"family_holidays",
+    tourNumber: "4",
+    price: "550",
+    dealyAimation: "100",
+    holidays : "Holidays"
+  },
+  {
+    id: 3,
+    icon: "icon-city ",
+    name: "Couple ",
+    url:"couple_holidays",
+    tourNumber: "8",
+    price: "700",
+    dealyAimation: "200",
+    holidays : "Holidays"
+  },
+  {
+    id: 4,
+    icon: "icon-museum ",
+    name: "Luxury ",
+    url:"luxury_holidays",
+    tourNumber: "6",
+    price: "800",
+    dealyAimation: "300",
+    holidays : "Holidays"
+  },
+  {
+    id: 5,
+    icon: "icon-beach-umbrella ",
+    name: "Beach ",
+    url: "beach_holidays",
+    tourNumber: "5",
+    price: "550",
+    dealyAimation: "400",
+    holidays : "Holidays"
+  },
+  {
+    id: 6,
+    icon: "icon-nature",
+    name: "Honeymoon ",
+    url: "honeymoon_holidays",
+    tourNumber: "5",
+    price: "650",
+    dealyAimation: "500",
+    holidays : "Holidays"
+  },
+  // {
+  //   id: 7,
+  //   icon: "icon-hiking ",
+  //   name: "Cruise ",
+  //   url: "cruise_holidays",
+  //   tourNumber: "4",
+  //   price: "550",
+  //   dealyAimation: "600",
+  //   holidays : "Holidays"
+  // },
+  {
+    id: 7,
+    icon: "icon-city ",
+    name: "Last Minute ",
+    url: "last_minute_holidays",
+    tourNumber: "8",
+    price: "700",
+    dealyAimation: "700",
+    holidays : "Holidays"
+  },
+  {
+    id: 8,
+    icon: "icon-camping ",
+    name: "Camping",
+    tourNumber: "5",
+    price: "550",
+    dealyAimation: "0",
+  },
+  {
+    id: 10,
+    icon: "icon-hiking-2 ",
+    name: "Trekking",
+    tourNumber: "6",
+    price: "480",
+    dealyAimation: "100",
+  },
+  {
+    id: 11,
+    icon: "icon-fire",
+    name: "Camp Fire",
+    tourNumber: "5",
+    price: "550",
+    dealyAimation: "200",
+  },
+  {
+    id: 12,
+    icon: "icon-jeep",
+    name: "Off Road",
+    tourNumber: "8",
+    price: "660",
+    dealyAimation: "300",
+  },
+  {
+    id: 13,
+    icon: "icon-traveller ",
+    name: "Exploring",
+    tourNumber: "8",
+    price: "880",
+    dealyAimation: "400",
+  },
+];

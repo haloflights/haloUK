@@ -1,0 +1,62 @@
+.popup-box {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+}
+
+.box {
+    position: relative;
+    width: 40%;
+    min-height: 300px;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin: 65px auto;
+    padding: 20px;
+    overflow: auto;
+
+
+    @include media-below(xs) {
+        width: 80%;
+    }
+
+    @include media-below(sm) {
+        width: 80%;
+    }
+
+    @include media-below(md) {
+        width: 80%;
+    }
+
+}
+
+.btn-close {
+    cursor: pointer;
+    position: fixed;
+    right: calc(31%);
+    top: 70px;
+
+    @include media-below(md) {
+        width: 80%;
+        left: 210px;
+        top: 70px;
+    }
+}
+
+.form-row {
+    display: flex; /* Use flexbox to make children inline */
+    align-items: center; /* Align children vertically */
+    columns: auto;
+}
+.form-row > * {
+    margin-right: 10px; /* Add spacing between input fields */
+  }
+  
+  /* Optional: To remove margin from last input field */
+  .form-row > :last-child {
+    margin-right: 0;
+  }
